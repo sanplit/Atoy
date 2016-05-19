@@ -1,0 +1,46 @@
+<?php
+/**
+ * author: Sanplit
+ * CreateTime: 16/04/29 15:16
+ * Description:
+ */
+
+namespace Admin\Controller;
+use Think\Controller;
+
+class OrderController extends CommonController
+{
+	public function index(){
+		$this->display();
+	}
+
+	/**
+	 * 订单列表
+	 */
+	public function order_list(){
+		$order = M('cart');
+		//分页操作
+		$msg_count = $order->where(true)->count();
+		$p = getpage($msg_count, 6);
+
+		//订单列表
+		$list = $order->where(true)->limit($p->firstRow, $p->listRows)->select();
+
+		//用户信息
+		foreach($list as $k => $v){
+			$uid = $list[$k]['uid'];
+			$user = M('user')->where('uid = "'.$uid.'"')->field('username')->select();
+
+			$a = array_merge($list, $user[0]);
+			$chunk = array_chunk($list, $k);
+
+			$list[$k]['username'] = $user[0]['username'];
+		}
+
+		$this->assign('page', $p->show());
+		$this->assign('order_list', $list);
+		$this->display();
+	}
+
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>{$title}--产品搜索</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/weblr.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <include file="left" />
+        <div id="webCenter" class="col-md-6 alert-success">
+
+            <include file="Public:nav" />
+
+            <div class="row-fluid">
+                <div class="">
+                    <span class="glyphicon glyphicon-list"></span>
+                    产品搜索 &nbsp;<br>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group form-group-lg">
+                            <div class="col-sm-10">
+                                <input ng-model="sea"  class="form-control" type="text" id="formSearch" placeholder="搜索关键字">
+                            </div>
+                            <label class="col-sm-2 control-label" for="formSearch"></label>
+                        </div>
+
+                        </form>
+                    <span class="pull-right">
+                        <a href="">>></a>
+                    </span>
+                </div><hr>
+                {{sea}}
+
+
+            </div><br>
+
+            <nav>
+                <ul class="pagination pages">
+                    {$page}
+                </ul>
+
+            </nav>
+
+            <div id="low" class="row-fluid">
+                <ul class="nav nav-list">
+                    <li class="divider"></li>
+                </ul><hr>
+                <blockquote class="pull-right">
+                    <a href="">
+                        Top<span class="glyphicon glyphicon-arrow-up"></span>
+                    </a>
+                </blockquote>
+            </div><br><hr>
+
+            <div id="footer" class="row-fluid text-center">
+                ©2016 Sanplit 版权所有<br><br>
+            </div>
+
+        </div>
+        <include file="right" />
+
+
+    </div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/angular.min.js"></script>
+</body>
+</html>

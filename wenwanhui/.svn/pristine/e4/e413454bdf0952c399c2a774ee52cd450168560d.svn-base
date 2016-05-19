@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title>{$title}--产品列表</title>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/weblr-home.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/page.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<include file="left" />
+				<div id="webCenter" class="col-md-6 alert-success">
+
+					<include file="Public:nav" />
+					
+					<div class="row-fluid">
+						<div class="">
+							<span class="glyphicon glyphicon-list"></span>
+							产品列表
+							<span class="pull-right">
+								<a href="">>></a>
+							</span>
+						</div><hr>
+						<foreach name="pro_list" item="pro">
+							<div class="row-fluid">
+								<form action="__APP__/Home/Cart/addCart" method="post">
+									<div class="col-md-6">
+										<div class="row-fluid">
+											<input type="hidden" name="pid" value="{$pro.pid}">
+											<input type="hidden" name="img" value="{$pro.pic}">
+											<img style="height: 150px; width: 60%;" src="__PUBLIC__/images/{$pro.pic|default='dan.png'}"><br>
+
+											<input type="hidden" name="title" value="{$pro.title}">
+											{$pro.title}&nbsp;
+
+											<input type="hidden" name="price" value="{$pro.price}">
+											￥{$pro.price} &nbsp;
+
+											<input type="hidden" name="count" value="{$pro.count}">
+											剩余:{$pro.count}
+
+											<div class="pull-right">
+												<input type="number" name="num" min="1" value="1" style="width: 45px;;"/>
+												<button type="submit" class="btn btn-warning  btn-xs">
+													<span class="glyphicon glyphicon-shopping-cart">购买</span>
+												</button>
+											</div>
+											<hr>
+
+										</div>
+
+									</div>
+								</form>
+							<hr>
+							</div>
+						</foreach>
+
+					</div><br>
+
+					<nav>
+						<ul class="pagination pages">
+							{$page}
+						</ul>
+					</nav>
+
+					<div id="low" class="row-fluid">
+						<ul class="nav nav-list">
+							<li class="divider"></li>
+						</ul><hr>
+						<blockquote class="pull-right">
+							<a href="">
+								Top<span class="glyphicon glyphicon-arrow-up"></span>
+							</a>
+						</blockquote>
+					</div><br><hr>
+
+					<div id="footer" class="row-fluid text-center">
+						©2016 Sanplit 版权所有<br><br>
+					</div>
+					
+				</div>
+				<include file="right" />
+				
+
+			</div>
+		</div>
+
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	</body>
+</html>

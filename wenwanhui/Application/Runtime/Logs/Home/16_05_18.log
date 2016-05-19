@@ -1,0 +1,77 @@
+[ 2016-05-18T17:46:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027620s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.1966s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0474s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000866s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001024s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025073s ]
+
+[ 2016-05-18T17:46:09+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-05-18T17:46:09+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-05-18T20:09:27+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028178s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0100s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.250420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.047201s ]
+
+[ 2016-05-18T20:09:29+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-05-18T20:09:29+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-05-18T22:29:08+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.246536s ]
+

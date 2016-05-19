@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title>{$title}--留言板</title>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/weblr.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<include file="left" />
+				<div id="webCenter" class="col-md-6 alert-success">
+					<include file="Public:nav" />
+					
+					<div class="row-fluid">
+						<div class="row-fluid">
+							<span class="glyphicon glyphicon-list"></span>
+							留言板
+							<span class="pull-right">
+								<a href="">>></a>
+							</span>
+						</div><hr>
+						<div class="row-fluid text-center">
+							<span class="glyphicon glyphicon-edit">发表留言</span><br>
+							<div class="row-fluid">
+								<form method="post" action="{:U('Home/User/mb')}">
+									<div class="form-group">
+					                    <div class="input-group input-group-lg">
+					                        <span class="input-group-addon">账 号：</span>
+					                        <input value="{$session|default='你还未登录，请先登录后在留言'}" name="username" class="form-control" type="text" ng-model="user.name" placeholder="请输入账号（必填）" disabled required />
+					                    </div>
+					                </div>
+					                <div class="form-group">
+					                    <div class="input-group input-group-lg">
+					                        <span class="input-group-addon">标 题：</span>
+					                        <input name="title" class="form-control" type="text" ng-model="user.title" placeholder="请输入标题（必填）" ng-disabled="inProgress" required />
+					                    </div>
+					                </div>
+					                <div class="form-group">
+					                    <div class="input-group">
+					                        <span class="input-group-addon">留言内容：</span>
+					                        <textarea name="msg" class="form-control" rows="4" type="text" ng-model="user.msg" placeholder="请输入留言（必填）" ng-disabled="inProgress" required></textarea>
+					                    </div>
+					                </div>
+
+									<div class="control-group">
+										<div class="controls text-center">									
+											<button type="submit" class="btn btn-primary btn-lg btn-block">提交</button><br>
+											
+										</div>
+
+									</div>
+									
+								</form>
+							</div>
+								
+						</div>
+					</div><br>
+
+					<div id="low" class="row-fluid">
+						<ul class="nav nav-list"> 
+						     <li class="divider"></li>
+						</ul><hr>
+						<blockquote class="pull-right">
+							<a href="">
+								Top<span class="glyphicon glyphicon-arrow-up"></span>
+							</a>
+						</blockquote>
+					</div><br><hr>
+
+					<div id="footer" class="row-fluid text-center">
+						©2016 Sanplit 版权所有<br><br>
+					</div>
+					
+				</div>
+				<include file="right" />
+			</div>
+		</div>
+
+		<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,486 @@
+[ 2016-05-05T15:02:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011743s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-05-05T15:02:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002882s ]
+
+[ 2016-05-05T15:02:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-05-05T15:04:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003472s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0821s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.553392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.554335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.035903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033096s ]
+
+[ 2016-05-05T15:04:27+08:00 ] 127.0.0.1 /Home/User/logout.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006873s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/User/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/User/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000516s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] Undefined variable: re_list E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003184s ]
+
+[ 2016-05-05T15:04:33+08:00 ] 127.0.0.1 /Home/User/logout.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005815s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/User/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/User/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Undefined variable: re_list E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006729s ]
+
+[ 2016-05-05T15:04:39+08:00 ] 127.0.0.1 /Home/Index/profile.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-05-05T15:04:41+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006018s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000850s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004267s ]
+
+[ 2016-05-05T15:04:42+08:00 ] 127.0.0.1 /Home/User/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002820s ]
+
+[ 2016-05-05T15:04:46+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004157s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0396s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000841s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012714s ]
+
+[ 2016-05-05T15:12:57+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022141s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant unll - assumed 'unll' E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\App.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.036730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042676s ]
+
+[ 2016-05-05T15:12:58+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001591s ]
+
+[ 2016-05-05T15:12:59+08:00 ] 127.0.0.1 /Home/User/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003479s ]
+
+[ 2016-05-05T15:13:11+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.7792200069517717
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002343s ]
+
+[ 2016-05-05T15:13:17+08:00 ] 127.0.0.1 /Home/User/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\CommonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0892s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username = 'dugu' ) LIMIT 1   [ RunTime:0.0678s ]
+SQL: SELECT * FROM `user` WHERE ( username = 'dugu' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003003s ]
+
+[ 2016-05-05T15:13:20+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005735s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0279s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003090s ]
+
+[ 2016-05-05T15:13:26+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+NOTIC: [8] Use of undefined constant unll - assumed 'unll' E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\App.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Cart/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Cart/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined variable: cart_list E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 88 行.
+NOTIC: [2] Illegal string offset 'gid' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 135 行.
+NOTIC: [2] Illegal string offset 'pid' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 135 行.
+NOTIC: [2] Illegal string offset 'title' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 136 行.
+NOTIC: [2] Illegal string offset 'pic' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 138 行.
+NOTIC: [2] Illegal string offset 'price' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 140 行.
+NOTIC: [2] Illegal string offset 'count' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 141 行.
+NOTIC: [2] Illegal string offset 'gid' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 135 行.
+NOTIC: [2] Illegal string offset 'pid' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 135 行.
+NOTIC: [2] Illegal string offset 'title' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 136 行.
+NOTIC: [2] Illegal string offset 'pic' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 138 行.
+NOTIC: [2] Illegal string offset 'price' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 140 行.
+NOTIC: [2] Illegal string offset 'count' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 141 行.
+NOTIC: [2] Illegal string offset 'gid' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 135 行.
+NOTIC: [2] Illegal string offset 'pid' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 135 行.
+NOTIC: [2] Illegal string offset 'title' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 136 行.
+NOTIC: [2] Illegal string offset 'pic' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 138 行.
+NOTIC: [2] Illegal string offset 'price' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 140 行.
+NOTIC: [2] Illegal string offset 'count' E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 141 行.
+NOTIC: [8] Undefined index: gid E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 135 行.
+NOTIC: [8] Undefined index: pic E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2016-05-05T15:13:26+08:00 ] 127.0.0.1 /Public/images/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003271s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-05-05T15:13:27+08:00 ] 127.0.0.1 /Public/images/d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-05-05T15:13:27+08:00 ] 127.0.0.1 /Public/images/u
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002375s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-05-05T16:25:31+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009409s ]
+NOTIC: [8] Use of undefined constant unll - assumed 'unll' E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\App.class.php 第 155 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008189s ]
+
+[ 2016-05-05T16:26:59+08:00 ] 127.0.0.1 /Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0157s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2016-05-05T16:28:02+08:00 ] 127.0.0.1 /Home/Index/product.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021772s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0262s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0295s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY pid LIMIT 0,4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003045s ]
+
+[ 2016-05-05T16:28:50+08:00 ] 127.0.0.1 /Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0146s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2016-05-05T16:28:56+08:00 ] 127.0.0.1 /Home/Index/category.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008241s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.2648s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `category`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `product` left JOIN category ON product.cid =  category.cid  WHERE ( category.cid = "" )  [ RunTime:0.0379s ]
+SQL: SELECT * FROM `product` WHERE ( cid = 1 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `product` WHERE ( cid = 2 )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `product` WHERE ( cid = 3 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/left.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/right.html): failed to open stream: No such file or directory E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8] Undefined variable: sad E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004825s ]
+

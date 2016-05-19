@@ -1,0 +1,30 @@
+<?php
+/**
+ * User: Sanplit
+ * Date: 16/04/25
+ * Time: 10:36
+ */
+namespace Admin\Controller;
+use Think\Controller;
+/**
+ * Class UsersController
+ * @package Home\Controller
+ */
+class UserController extends CommonController {
+	/**
+	 * get users list
+	 */
+	public function vip_list()
+	{
+		$vip = M('user');
+
+		$count = $vip->where(true)->count();
+		$p = getpage($count, 8);
+		$list = $vip->where(true)->order('uid')->limit($p->firstRow, $p->listRows)->select();
+
+		$this->assign('page', $p->show());
+		$this->assign('vip_list', $list);
+
+		$this->display();
+	}
+}

@@ -1,0 +1,12 @@
+[ 2016-04-26T13:50:42+08:00 ] 127.0.0.1 /User/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:User
+
+[ 2016-04-26T13:50:44+08:00 ] 127.0.0.1 /User/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载模块:User
+

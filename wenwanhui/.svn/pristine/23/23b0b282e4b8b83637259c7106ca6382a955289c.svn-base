@@ -1,0 +1,33 @@
+<?php
+/**
+ * author: Sanplit
+ * CreateTime: 16/04/29 15:22
+ * Description:
+ */
+
+namespace Admin\Controller;
+
+
+class MessageController extends CommonController
+{
+
+	/**
+	 * 查看信息
+	 */
+	public function msg_view(){
+
+		$m = M('message');
+
+		//分页操作
+		$msg_count = $m->where(true)->count();
+		$p = getpage($msg_count, 6);
+
+		//留言列表
+		$msg_list = $m->where(true)->limit($p->firstRow, $p->listRows)->join('user on message.uid = user.uid')->order('mid desc')->select();
+
+		$this->assign('msg_page', $p->show());
+		$this->assign('msg_list', $msg_list);
+
+		$this->display();
+	}
+}

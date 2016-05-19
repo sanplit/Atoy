@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>{$title} -- 首页</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <literal>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/weblr-home.css">
+    </literal>
+
+    <style class="cp-pen-styles">
+        #menu_smartphone
+        {
+            height: 100%;
+            position: absolute;
+            background: #ffffff;
+            top: 0;
+            bottom: 0;
+            left: -570px;
+            width: 570px;
+        }
+        #menu_smartphone ul
+        {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            color: #999999;
+        }
+        #menu_smartphone ul li
+        {
+            height: 70px;
+            padding-left: 10px;
+            line-height: 70px;
+        }
+        #menu_smartphone ul li:hover
+        {
+            background: #f7f7f7;
+        }
+        #menu_smartphone ul li a
+        {
+            color: #999999;
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 25px;
+        }
+        .background_profil
+        {
+            background-image: url(fond.png);
+            height: 240px;
+        }
+        .pics_profil
+        {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-size: cover;
+            background-image: url(welcome.png);
+            margin-top: -65px;
+        }
+        .name_profil
+        {
+            font-size: 37px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            color: #666666;
+            margin-top: -50px;
+            margin-left: 140px;
+            margin-bottom: 40px;
+        }
+        .top
+        {
+            background-color: #e51c23;
+            height: 70px;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            line-height: 70px;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Roboto';
+            padding-left: 10px;
+            text-align: left;
+        }
+        #grey_back
+        {
+            display: none;
+            background-color: #000000;
+            opacity: 0.7;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+        .card
+        {
+            width: 90%;
+            height: 300px;
+            background-color: #ffffff;
+            margin: 10px;
+            padding: 20px;
+            color: #666666;
+            font-weight: 300;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Roboto';
+            box-shadow: 0 0 2px #999999;
+        }
+        .menu_btn
+        {
+            cursor: pointer;
+            left: 0px;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <include file="left" />
+        <div id="webCenter" class="col-md-6 alert-success">
+
+            <include file="nav" />
+            <div class="row-fluid">
+                <img src="__PUBLIC__/images/banner.jpg" width="100%" height="10%" alt="">
+            </div><br>
+
+            <div class="row-fluid alert-info">
+                <div class="col-md-4  text-center">
+                    <a href="{:U('Home/Index/login')}">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <div><h4>登录</h4></div>
+                    </a>
+
+                </div>
+                <div class="col-md-4  text-center">
+                    <a href="{:U('Home/Index/category')}">
+                        <span class="glyphicon glyphicon-th-list"></span>
+                        <div><h4>分类</h4></div>
+                    </a>
+
+                </div>
+                <div class="col-md-4  text-center">
+                    <a href="{:U('Home/Index/cart')}">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        <div><h4>购物车</h4></div>
+                    </a>
+
+                </div>
+                <div class="col-md-4  text-center">
+                    <a href="{:U('Home/Index/mb')}">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        <div><h4>反馈</h4></div>
+                    </a>
+
+                </div>
+                <div class="col-md-4  text-center">
+                    <a href="{:U('Home/Index/search')}">
+                        <span class="glyphicon glyphicon-search"></span>
+                        <div><h4>搜索</h4></div>
+                    </a>
+
+                </div>
+                <div class="col-md-4  text-center">
+                    <a href="{:U('Home/Index/profile')}">
+                        <span class="glyphicon glyphicon-heart-empty"></span>
+                        <div><h4>个人中心</h4></div>
+                    </a>
+
+                </div>
+
+            </div><br>
+
+            <div class="row-fluid">
+                <div class="">
+                    <span class="glyphicon glyphicon-list"></span>
+                    推荐产品
+							<span class="pull-right">
+								<a href="product">>></a>
+							</span>
+                </div><hr>
+                <div class="row-fluid">
+                    <foreach name="re_list" item="data">
+                        <div class="col-md-6">
+                            <div class="row-fluid">
+
+                                <img style="height: auto; width: 60%;" src="__PUBLIC__/images/{$data.pic|default='dan.png'}"><br>
+                                {$data.title}&nbsp; ￥{$data.price} &nbsp; 剩余:{$data.count}
+                                <div class="pull-right">
+                                    <a href="{:U('Home/Index/cart')}">
+                                        <button class="btn btn-warning  btn-xs">
+                                            <span class="glyphicon glyphicon-shopping-cart">购买</span>
+
+                                        </button>
+                                    </a>
+                                </div>
+                                <hr>
+
+                            </div>
+
+                        </div>
+                    </foreach>
+                </div>
+            </div><br>
+
+            <div class="row-fluid">
+                <div class="row-fluid">
+                    <span class="glyphicon glyphicon-list"></span>
+                    最新动态
+							<span class="pull-right">
+								<a href="">>></a>
+							</span>
+                </div><hr>
+                <div class="row-fluid">
+                    <ul>
+                        <li>
+                            <a href="#">第一篇
+                                <div class="pull-right">></div>
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="">第二篇
+                                <div class="pull-right">></div>
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="">第三篇
+                                <div class="pull-right">></div>
+                            </a>
+                        </li>
+                        <hr>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="low" class="row-fluid">
+                <ul class="nav nav-list">
+                    <li class="divider"></li>
+                </ul><hr>
+                <blockquote class="pull-right">
+                    <a href="">
+                        Top<span class="glyphicon glyphicon-arrow-up"></span>
+                    </a>
+                </blockquote>
+            </div><br><hr>
+
+            <div id="footer" class="row-fluid text-center ">
+                ©2016 Sanplit 版权所有<br><br>
+            </div>
+
+        </div>
+        <include file="right" />
+
+
+    </div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+
+</body>
+</html>

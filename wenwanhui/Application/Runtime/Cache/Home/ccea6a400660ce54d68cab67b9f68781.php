@@ -1,0 +1,69 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title><?php echo ($title); ?>--会员登录</title>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="/Public/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="/Public/css/weblr.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				
+
+				<div id="webCenter" class="col-md-6 alert-success" style="height: 100%;">
+					<nav class="navbar navbar-default alert-success">
+						<div>
+							<a href="index">
+								<div class="glyphicon glyphicon-chevron-left pull-left"></div>
+							</a>
+							<div class="text-center"><h3>会员登录</h3></div>
+						</div>
+					</nav>
+					<div class="row-fluid">
+						<form method="post" action="/Home/User/checkLogin">
+							<div class="form-group">
+			                    <div class="input-group input-group-lg">
+			                        <span class="input-group-addon">&nbsp;账&nbsp; 号：</span>
+			                        <input name="name" class="form-control" type="text" ng-model="user.name" placeholder="请输入账号（必填）" ng-disabled="inProgress" ng-minlength=3 ng-maxlength=20 required tabindex="1" />
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <div class="input-group input-group-lg">
+			                        <span class="input-group-addon">&nbsp;密&nbsp; 码：</span>
+			                        <input name="pwd" class="form-control" type="password" ng-model="user.pass" placeholder="请输入密码（必填）" ng-disabled="inProgress" ng-minlength=3 ng-maxlength=20 required tabindex="2" />
+			                    </div>
+			                </div>
+
+							<div class="form-group has-feedback">
+								<div class="input-group input-group-lg">
+									<span class="input-group-addon">验证码：</span>
+									<input type="text" name="verify" class="form-control" placeholder="验证码" style="width:200px;" />
+									<img class="verify" src="<?php echo U('Home/User/verify');?>" style="height:45px;" alt="验证码" onClick="this.src=this.src+'?'+Math.random()" />
+								</div>
+							</div>
+							<div class="control-group">
+								<div class="controls text-center">									
+									<button type="submit" class="btn btn-primary btn-lg btn-block">登录</button><br>
+									没有账号？马上<a href="register">注册</a>
+								</div>
+							</div>
+							
+						</form>
+
+
+					</div>
+
+				</div>
+
+				
+			</div>
+
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,37 @@
+
+/* .webLeft, .webRight {
+    background: #282828 none repeat scroll 0 0;
+    display: block;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    //width: calc(50% - 8rem);
+    margin:0 100px;
+	
+    z-index: 999;
+} */
+body{
+	background-color:#eee8cd;
+}
+
+.webLeft{
+	float:left;
+	width:100px;
+	background:#00f;
+	margin-right:-3px;
+}
+.webRight{
+	float:right;
+	width:100px;
+	background:#0f0;
+	margin-left:-3px;
+}
+#webCenter{
+	//background:#333;
+	//background-image:url(images/dan.png);
+
+	//height:100%;
+    position:absolute;
+	left:30%;
+	top:0px;
+}

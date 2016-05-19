@@ -1,0 +1,1041 @@
+[ 2016-05-02T18:00:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022752s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-05-02T18:00:28+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002761s ]
+
+[ 2016-05-02T18:00:29+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004136s ]
+
+[ 2016-05-02T18:01:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014564s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.1263s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.077618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.078563s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.327925s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.328426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.071378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.072263s ]
+
+[ 2016-05-02T18:02:02+08:00 ] 127.0.0.1 /Home/Index/search.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000314s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017897s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.215232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.216096s ]
+NOTIC: [8] Undefined variable: pro_list E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 86 行.
+NOTIC: [8] Undefined variable: page E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.583149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.584431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006935s ]
+
+[ 2016-05-02T18:02:16+08:00 ] 127.0.0.1 /Home/Index/search.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011670s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined variable: pro_list E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 86 行.
+NOTIC: [8] Undefined variable: page E:\WNMP\WWW\wenwanhui\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.004401s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.004865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023029s ]
+
+[ 2016-05-02T18:02:24+08:00 ] 127.0.0.1 /Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011950s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0558s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.587541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.588306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011148s ]
+
+[ 2016-05-02T18:02:28+08:00 ] 127.0.0.1 /Home/Index/product.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013003s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0171s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0865s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY pid LIMIT 0,4   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000549s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.278465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.279524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004305s ]
+
+[ 2016-05-02T18:03:08+08:00 ] 127.0.0.1 /Home/Index/register.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003654s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001896s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005658s ]
+
+[ 2016-05-02T18:03:25+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003881s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.102463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.103154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.057010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.057816s ]
+
+[ 2016-05-02T18:03:26+08:00 ] 127.0.0.1 /Home/User/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008724s ]
+
+[ 2016-05-02T18:03:34+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004002s ]
+
+[ 2016-05-02T18:03:35+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2016-05-02T18:03:35+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-05-02T18:03:35+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003065s ]
+
+[ 2016-05-02T18:03:35+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-05-02T18:03:36+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2016-05-02T18:03:36+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002285s ]
+
+[ 2016-05-02T18:03:36+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2016-05-02T18:03:36+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002332s ]
+
+[ 2016-05-02T18:03:36+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003393s ]
+
+[ 2016-05-02T18:03:37+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013348s ]
+
+[ 2016-05-02T18:03:37+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-05-02T18:03:37+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2016-05-02T18:03:37+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002383s ]
+
+[ 2016-05-02T18:03:37+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005467s ]
+
+[ 2016-05-02T18:03:37+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007374s ]
+
+[ 2016-05-02T18:03:38+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2016-05-02T18:03:38+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2016-05-02T18:03:39+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008817s ]
+
+[ 2016-05-02T18:03:40+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027664s ]
+
+[ 2016-05-02T18:03:57+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003249s ]
+
+[ 2016-05-02T18:03:57+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004903s ]
+
+[ 2016-05-02T18:03:57+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012673s ]
+
+[ 2016-05-02T18:03:58+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005148s ]
+
+[ 2016-05-02T18:03:58+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002678s ]
+
+[ 2016-05-02T18:03:58+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000259s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004115s ]
+
+[ 2016-05-02T18:03:59+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003898s ]
+
+[ 2016-05-02T18:03:59+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673?0.6744305115079674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2016-05-02T18:03:59+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673?0.6744305115079674?0.681332108627
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009634s ]
+
+[ 2016-05-02T18:04:00+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673?0.6744305115079674?0.681332108627?0.19350845425241958
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009186s ]
+
+[ 2016-05-02T18:04:00+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673?0.6744305115079674?0.681332108627?0.19350845425241958?0.5411207063298942
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003790s ]
+
+[ 2016-05-02T18:04:00+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673?0.6744305115079674?0.681332108627?0.19350845425241958?0.5411207063298942?0.7837806233294288
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003623s ]
+
+[ 2016-05-02T18:04:00+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673?0.6744305115079674?0.681332108627?0.19350845425241958?0.5411207063298942?0.7837806233294288?0.3529316986301704
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003450s ]
+
+[ 2016-05-02T18:04:01+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673?0.6744305115079674?0.681332108627?0.19350845425241958?0.5411207063298942?0.7837806233294288?0.3529316986301704?0.4690792586020409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2016-05-02T18:04:01+08:00 ] 127.0.0.1 /Home/User/verify.shtml?0.16484097582549784?0.7807378721642766?0.4844237984047802?0.6757434186882334?0.5471670083307066?0.27528436215763485?0.3113810119464254?0.42566675461407333?0.8653775557087321?0.9688426319833453?0.9656128936178603?0.8349494404103627?0.9047870624597633?0.39204371652581926?0.4822446154127604?0.9812228330447316?0.41053414404117194?0.6651664442700744?0.25845037428604467?0.07847602260127806?0.9385029026229625?0.5110016032137751?0.6502172448313577?0.7560621982031474?0.9865014151078213?0.8242969469634253?0.4861578323679673?0.6744305115079674?0.681332108627?0.19350845425241958?0.5411207063298942?0.7837806233294288?0.3529316986301704?0.4690792586020409?0.3116301498738927
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003540s ]
+
+[ 2016-05-02T18:04:19+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0134s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003342s ]
+
+[ 2016-05-02T18:04:25+08:00 ] 127.0.0.1 /Home/Index/mb.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004041s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000917s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2016-05-02T18:04:38+08:00 ] 127.0.0.1 /Home/User/mb.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0671s ]
+SQL: SELECT `uid` FROM `user` WHERE ( username = "" )  [ RunTime:0.0682s ]
+NOTIC: [8] Undefined offset: 0 E:\WNMP\WWW\wenwanhui\Application\Home\Controller\UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0440s ]
+NOTIC: [8] Undefined index: validate E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-05-02T18:04:46+08:00 ] 127.0.0.1 /Home/User/mb.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002973s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0195s ]
+SQL: SELECT `uid` FROM `user` WHERE ( username = "" )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 E:\WNMP\WWW\wenwanhui\Application\Home\Controller\UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0182s ]
+NOTIC: [8] Undefined index: validate E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002221s ]
+
+[ 2016-05-02T18:14:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.075814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076736s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0659s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000698s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.415875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.416470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.122222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.123030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.063708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.074745s ]
+
+[ 2016-05-02T18:14:53+08:00 ] 127.0.0.1 /Home/Index/product.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0173s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY pid LIMIT 0,4   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000767s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004755s ]
+
+[ 2016-05-02T18:16:46+08:00 ] 127.0.0.1 /Home/Index/product.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.022872s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.068058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106284s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.4361s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY pid LIMIT 0,4   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000721s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003681s ]
+
+[ 2016-05-02T18:17:48+08:00 ] 127.0.0.1 /Home/Index/product.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.070422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.080324s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0200s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY pid LIMIT 0,4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000603s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007984s ]
+
+[ 2016-05-02T18:17:53+08:00 ] 127.0.0.1 /Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003891s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0268s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003756s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.340325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.340709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017836s ]
+
+[ 2016-05-02T18:18:59+08:00 ] 127.0.0.1 /Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.093585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103903s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0317s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004812s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.043217s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.043632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010762s ]
+
+[ 2016-05-02T18:21:27+08:00 ] 127.0.0.1 /Home/Index/product.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000352s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012593s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0491s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY pid LIMIT 0,4   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.434901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.435497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010820s ]
+
+[ 2016-05-02T18:21:37+08:00 ] 127.0.0.1 /Index/product/p/2.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010146s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0353s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY pid LIMIT 4,4   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000696s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003254s ]
+
+[ 2016-05-02T18:21:41+08:00 ] 127.0.0.1 /Index/product/p/3.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0333s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY pid LIMIT 8,4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000847s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005218s ]
+
+[ 2016-05-02T18:21:47+08:00 ] 127.0.0.1 /Home/Index/profile.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-05-02T18:21:49+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000638s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005575s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003928s ]
+
+[ 2016-05-02T18:21:50+08:00 ] 127.0.0.1 /Home/User/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005330s ]
+
+[ 2016-05-02T18:21:52+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0227s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000851s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.241006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007740s ]
+
+[ 2016-05-02T18:21:55+08:00 ] 127.0.0.1 /Home/User/logout.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+
+[ 2016-05-02T18:21:59+08:00 ] 127.0.0.1 /Home/Index/login.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015152s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000910s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002712s ]
+
+[ 2016-05-02T18:22:00+08:00 ] 127.0.0.1 /Home/User/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005047s ]
+
+[ 2016-05-02T18:22:28+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.122117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004500s ]
+NOTIC: [8] Undefined index: username E:\WNMP\WWW\wenwanhui\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.1003s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WNMP\WWW\wenwanhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `product` ORDER BY date LIMIT 4   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001702s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.221252s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.221712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004893s ]
+

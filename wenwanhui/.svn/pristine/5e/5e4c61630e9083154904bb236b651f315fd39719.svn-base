@@ -1,0 +1,148 @@
+<?php
+/**
+ * author: Sanplit
+ * CreateTime: 16/04/28 16:41
+ * Description:
+ */
+namespace Home\Controller;
+
+use Think\Think;
+use Think\Controller;
+
+class CartController extends CommonController
+{
+	/**
+	 * 获取购物车信息cart
+	 */
+	public  function getCart(){
+
+		if(!isset($_SESSION['username'])){
+			$this->success("你还未登录哦~请登录后查看", __APP__ . "/Home/Index/login");
+		}else{
+			$m = M('cart');
+			$alist = $m->where('uid = "'.$_SESSION['uid'].'"')->select();
+
+			$count = $m->where('uid = "'.$_SESSION['uid'].'"')->count();
+			$p = getpage($count, 3);
+			$list = $m->where('uid = "'.$_SESSION['uid'].'"')->order('sid')->limit($p->firstRow, $p->listRows)->select();
+
+			//单品金额
+			foreach ($alist as $key => $v) {
+				$alist[$key]['total'] = $alist[$key]['count'] * $alist[$key]['price'];
+			}
+			foreach ($list as $key => $v) {
+				$list[$key]['total'] = $list[$key]['count'] * $list[$key]['price'];
+			}
+
+			//总金额
+			$all_total = array();
+			foreach ($alist as $key => $v) {
+				$all_total['all'] += $alist[$key]['total'];
+			}
+
+			$this->assign('page', $p->show());
+			$this->assign('cart_list', $list);
+			$this->assign('all_total', $all_total['all']);
+			$this->display('Index/cart');
+		}
+	}
+
+	/**
+	 * 加入购物车
+	 */
+	public function addCart(){
+
+		if(!isset($_SESSION['username'])){
+			$this->success("你还未登录哦~请登录后再购买", __APP__ . "/Home/Index/login");
+		}else {
+			if(IS_POST) {
+				$cdata['pid'] = I('post.pid');
+				$cdata['pname'] = I('post.title');
+				$cdata['pic'] = I('post.img');
+				$cdata['price'] = I('post.price');
+				$cdata['date'] = date('Y-m-d H:i:s');
+				$cdata['count'] = I('post.num');
+				$uid = M('user')->field('uid')->where('username = "' . $_SESSION['username'] . '"')->select();
+				$cdata = array_merge($cdata, $uid[0]);
+
+                //获取商品库存
+                $pro = M('product');
+                $pro_count = $pro->where('pid = "'.$cdata['pid'].'"')->field('count')->select();
+                $pcount = $pro_count[0]['count'] - $cdata[0]['count'];
+
+                if($pcount <= 0){
+                    $this->success('商品已售罄！');
+                    exit;
+                }
+
+				//判断是否已购买
+				$iscart = M('cart');
+				if ($iscart->where(array('pid' => $cdata['pid'], 'uid' => $cdata['uid']))->count()) {
+					//获取已有关联商品数
+					$cnum = $iscart->where(array('pid' => $cdata['pid'], 'uid' => $cdata['uid']))->field('count')->select();
+					//获取商品总数
+					$cdata['count'] = $cdata['count'] + $cnum[0]['count'];
+                    //商品数
+					$cupdate = array('count' => $cdata['count']);
+
+
+					//更新
+					if ($iscart->create()) {
+						$update_count = $pro->where(array('pid' => $cdata['pid'], 'uid' => $cdata['uid']))->setDec('count', 1);  //商品数减少
+						$result = $iscart->where(array('pid' => $cdata['pid'], 'uid' => $cdata['uid']))->data($cupdate)->save();// 更新数据到数据库
+
+						//$result = $iscart->where(array('pid' => $cdata['pid'], 'uid' => $cdata['uid']))->setInc('count', $cdata['count']);
+						if ($result && $update_count) {
+							// 如果主键是自动增长型 成功后返回值就是最新插入的值
+							$this->success('购买成功-U！', __APP__ . "/Home/Cart/getCart");
+						}else{
+                            $this->error('购买失败-U！请稍后再试~');
+
+                        }
+					}else{
+                        $this->error('购买失败-U！！请稍后再试~');
+                    }
+				}else{
+					//插入
+					if ($iscart->create()) {
+						M('product')->setDec('count', 1); //商品数减一
+						$result = $iscart->data($cdata)->add();// 写入数据到数据库
+						if ($result) {
+							// 如果主键是自动增长型 成功后返回值就是最新插入的值
+							$this->success('购买成功-I！', __APP__ . "/Home/Cart/getCart");
+						}else{
+                            $this->error('购买失败-I！请稍后再试~');
+                        }
+					}else{
+                        $this->error('购买失败-I！！请稍后再试~');
+                    }
+				}
+
+			}
+		}
+	}
+
+	/**
+	 * 商品删除
+	 * @param $pid 商品ID
+	 */
+	public function delCart($pid = null){
+
+		if($pid){
+			$delm = M('cart');
+			$res = $delm->where(array('pid' => $pid, 'uid' => $_SESSION['uid']))->delete();
+
+			if($res){
+				$this->success('删除成功!');
+			}else{
+				$this->error('删除失败!');
+			}
+		}else{
+			$this->error('删除失败!!');
+		}
+
+	}
+
+
+
+}
